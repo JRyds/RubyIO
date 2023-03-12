@@ -1,0 +1,12 @@
+steveF= File.new("input.txt", "r")
+if aFile
+  content = aFile.sysread(20)
+  if content.length == 20
+    puts content
+  else
+    puts "End of file reached"
+  end
+else
+  puts "Unable to open file!"
+end
+martin
